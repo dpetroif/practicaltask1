@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @computer.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @computer.description %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @computer.price %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @computer.type %>
+</p>
+
+<p>
+  <b>Present:</b>
+  <%= @computer.present %>
+</p>
+
+
+<%= link_to 'Edit', edit_computer_path(@computer) %> |
+<%= link_to 'Back', computers_path %>
